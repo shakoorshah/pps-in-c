@@ -3,7 +3,7 @@
 int main()
 {
 	int n, r, sum=0;
-	printf("enter the number");
+	printf("Enter the number");
 	scanf("%d", &n);
 	while(n>0)
 	{
@@ -11,5 +11,5 @@ int main()
 		sum= (sum*10)+r;
 		n=n/10;
 	}
-	printf("reverse of the given number is: %d", sum);
+	printf("Reverse of the given number is: %d", sum);
 }
